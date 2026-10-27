@@ -1,9 +1,8 @@
-import math
 import json
-
-from dataclasses import dataclass
+import math
 from collections import defaultdict
 from collections.abc import Iterable, Sequence
+from dataclasses import dataclass
 
 
 @dataclass(frozen=True)
